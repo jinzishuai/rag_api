@@ -1,7 +1,7 @@
-﻿# ID-based RAG FastAPI
+﻿# ID-based RAG FastAPI with Atlas-MongoDB (WIP)
 
 ## Overview
-This project integrates Langchain with FastAPI in an Asynchronous, Scalable manner, providing a framework for document indexing and retrieval, using PostgreSQL/pgvector.
+This project integrates Langchain with FastAPI in an Asynchronous, Scalable manner, providing a framework for document indexing and retrieval, using ~~PostgreSQL/pgvector~~ **Atlas-MongoDB**.
 
 Files are organized into embeddings by `file_id`. The primary use case is for integration with [LibreChat](https://librechat.ai), but this simple API can be used for any ID-based use case.
 
